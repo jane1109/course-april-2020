@@ -3,6 +3,7 @@ package com.example.as;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.lang.String;
 
 /**
  * @author jiayingchen
@@ -16,15 +17,15 @@ public class BookSeller {
     public static class Book{
 
         private long id;
-        private java.lang.String isbn;
-        private java.lang.String name;
-        private java.lang.String author;
+        private String isbn;
+        private String name;
+        private String author;
         private Date publishDate;
 
         public Book(){
         }
 
-        public Book(long id, java.lang.String isbn, java.lang.String name, java.lang.String author, Date publishDate){
+        public Book(long id, String isbn, String name, String author, Date publishDate){
             this.id = id;
             this.isbn = isbn;
             this.name = name;
